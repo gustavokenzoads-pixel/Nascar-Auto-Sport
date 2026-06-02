@@ -1,0 +1,222 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* NASCAR Auto Sport - Color Palette */
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #111111;
+  --bg-tertiary: #1a1a1a;
+  --accent-orange: #FF6900;
+  --accent-orange-glow: #FF6900;
+  --accent-red: #CC1111;
+  --text-primary: #F5F5F3;
+  --text-muted: #8A8A8A;
+  --border-orange: rgba(255, 105, 0, 0.2);
+  
+  /* Semantic tokens mapped to NASCAR palette */
+  --background: #0a0a0a;
+  --foreground: #F5F5F3;
+  --card: #111111;
+  --card-foreground: #F5F5F3;
+  --popover: #111111;
+  --popover-foreground: #F5F5F3;
+  --primary: #FF6900;
+  --primary-foreground: #0a0a0a;
+  --secondary: #1a1a1a;
+  --secondary-foreground: #F5F5F3;
+  --muted: #1a1a1a;
+  --muted-foreground: #8A8A8A;
+  --accent: #FF6900;
+  --accent-foreground: #0a0a0a;
+  --destructive: #CC1111;
+  --destructive-foreground: #F5F5F3;
+  --border: rgba(255, 105, 0, 0.2);
+  --input: #1a1a1a;
+  --ring: #FF6900;
+  --radius: 0.25rem;
+}
+
+@theme inline {
+  --font-sans: 'Inter', 'Inter Fallback', system-ui, sans-serif;
+  --font-display: 'Bebas Neue', 'Bebas Neue Fallback', Impact, sans-serif;
+  --font-condensed: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 2px);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-sans);
+  }
+}
+
+/* Grain texture overlay */
+.grain-overlay::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+  z-index: 1;
+}
+
+/* Gradient mesh backgrounds */
+.gradient-mesh {
+  background: 
+    radial-gradient(ellipse 80% 60% at 20% 10%, rgba(255, 105, 0, 0.07) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 80% at 80% 90%, rgba(204, 17, 17, 0.04) 0%, transparent 50%),
+    var(--bg-primary);
+}
+
+.gradient-mesh-secondary {
+  background: 
+    radial-gradient(ellipse 70% 50% at 80% 20%, rgba(255, 105, 0, 0.05) 0%, transparent 50%),
+    radial-gradient(ellipse 50% 60% at 10% 80%, rgba(204, 17, 17, 0.03) 0%, transparent 50%),
+    var(--bg-secondary);
+}
+
+/* Hero gradient */
+.gradient-hero {
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a0800 100%);
+}
+
+/* Orange glow effects */
+.glow-orange {
+  box-shadow: 0 0 40px rgba(255, 105, 0, 0.15);
+}
+
+.glow-orange-strong {
+  box-shadow: 0 0 60px rgba(255, 105, 0, 0.25);
+}
+
+.text-glow-orange {
+  text-shadow: 0 0 30px rgba(255, 105, 0, 0.5);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent-orange);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff8533;
+}
+
+/* Section number decorative elements */
+.section-number {
+  position: absolute;
+  font-family: var(--font-display);
+  font-size: clamp(8rem, 20vw, 16rem);
+  opacity: 0.04;
+  color: var(--text-primary);
+  user-select: none;
+  pointer-events: none;
+  line-height: 1;
+}
+
+/* Font display utility */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-condensed {
+  font-family: var(--font-condensed);
+}
+
+/* Responsive headline clamp */
+.headline-hero {
+  font-size: clamp(3rem, 8vw, 8rem);
+  line-height: 0.95;
+}
+
+.headline-section {
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 1;
+}
+
+/* Card industrial style */
+.card-industrial {
+  border-radius: 4px;
+  border: 1px solid var(--border-orange);
+  transition: all 0.3s ease;
+}
+
+.card-industrial:hover {
+  border-color: var(--accent-orange);
+  transform: translateY(-4px);
+  box-shadow: 0 10px 40px rgba(255, 105, 0, 0.1);
+}
+
+/* Line separator */
+.line-separator {
+  position: relative;
+  height: 1px;
+  width: 100%;
+}
+
+.line-separator::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, transparent, rgba(255, 105, 0, 0.3), transparent);
+}
+
+/* Body scroll lock for mobile menu */
+body.menu-open {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+/* Hide scrollbar utility (used in mobile filter bars) */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
