@@ -69,7 +69,7 @@ const services = [
     title: 'Alta Performance', 
     description: 'Motor, suspensão, freios, escapamento e chip tuning de alta precisão.',
     tag: 'Performance',
-    image: '/services/performance.jpg',
+    image: '/services/performance.png',
   },
   { 
     title: 'Estética Automotiva', 
