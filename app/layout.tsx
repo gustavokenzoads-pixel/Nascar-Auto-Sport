@@ -76,7 +76,7 @@ export default function RootLayout({
                 <Footer />
                         <WhatsAppButton />
                   {process.env.NODE_ENV === 'production' && <Analytics />}
-                </body>body>
+                      </body>
           </html>html>
         )
 }</html>
