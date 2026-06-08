@@ -72,11 +72,11 @@ export default function RootLayout({
                         <Navbar />
                         <main className="flex-1">
                           {children}
-                        </main>main>
+                        </main>
                 <Footer />
                         <WhatsAppButton />
                   {process.env.NODE_ENV === 'production' && <Analytics />}
                       </body>
-          </html>html>
+          </html>
         )
-}</html>
+}
