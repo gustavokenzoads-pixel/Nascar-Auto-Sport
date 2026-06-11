@@ -7,6 +7,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import {
   ChevronRight,
   MessageCircle,
+  Play,
   Star,
   Zap,
   Filter,
@@ -149,8 +150,9 @@ export default function ProjetosPage() {
                 <h1 className="font-[var(--font-bebas)] text-4xl lg:text-9xl text-[#F5F5F3] tracking-wide mb-4">
                   NOSSOS PROJETOS
                 </h1>
+                {/* TODO: revisar copy — opções: B) "Cada projeto entregue com o mesmo rigor: acabamento impecável, prazo respeitado." C) "Para quem não aceita resultado mediano. Alto padrão em funilaria, pintura e estética automotiva." */}
                 <p className="font-[var(--font-barlow)] text-lg text-[#8A8A8A] max-w-2xl">
-                  Confira algumas das transformações que realizamos. Cada carro é tratado com cuidado e dedicação.
+                  Trabalho de alto padrão para quem cuida do carro como patrimônio.
                 </p>
               </motion.div>
 
@@ -211,6 +213,67 @@ export default function ProjetosPage() {
         </div>
       </section>
 
+
+      {/* ============================================ */}
+      {/* BLOCO 1.5 — VÍDEO NEY (PLACEHOLDER)         */}
+      {/* ============================================ */}
+      <section className="bg-[#0a0a0a] py-12 lg:py-16">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-6">
+            <p className="font-[var(--font-barlow)] uppercase tracking-widest text-[#FF6900] text-xs mb-2">
+              O dono fala
+            </p>
+            <h2 className="font-[var(--font-bebas)] text-2xl lg:text-3xl text-[#F5F5F3]">
+              O padrão de atendimento, na voz do Ney
+            </h2>
+          </div>
+
+          {/*
+           * ===== TROCAR QUANDO O VÍDEO DO NEY ESTIVER PRONTO =====
+           * 1. Suba o vídeo no YouTube (não listado ou público).
+           * 2. Copie o ID do vídeo da URL: youtube.com/watch?v=ESTE_ID_AQUI
+           * 3. Substitua VIDEO_ID no iframe abaixo pelo ID copiado.
+           * 4. Delete o bloco <div> do placeholder "VÍDEO EM BREVE" (linhas abaixo).
+           * 5. Descomente o bloco <iframe> que está logo após o placeholder.
+           * ========================================================
+           */}
+
+          {/* PLACEHOLDER — apagar quando o vídeo estiver pronto */}
+          <div
+            className="aspect-video w-full relative overflow-hidden flex flex-col items-center justify-center gap-4"
+            style={{ background: '#111', border: '1px solid rgba(255,105,0,0.2)', borderRadius: '2px' }}
+          >
+            <div
+              className="w-16 h-16 flex items-center justify-center"
+              style={{
+                background: 'rgba(255,105,0,0.15)',
+                border: '1px solid rgba(255,105,0,0.4)',
+                borderRadius: '50%',
+              }}
+            >
+              <Play className="w-8 h-8 text-[#FF6900] ml-1" />
+            </div>
+            <p className="font-[var(--font-barlow)] text-[#8A8A8A] text-sm uppercase tracking-wider">
+              Vídeo em breve
+            </p>
+          </div>
+
+          {/* PLAYER — descomentar e substituir VIDEO_ID quando o vídeo estiver pronto
+          <iframe
+            className="w-full aspect-video"
+            style={{ borderRadius: '2px' }}
+            src="https://www.youtube.com/embed/VIDEO_ID"
+            title="Ney fala sobre o padrão NASCAR Auto Sport"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+          */}
+
+          <p className="mt-3 text-center font-[var(--font-barlow)] text-[#8A8A8A] text-xs">
+            Ney conta como funciona o atendimento e o cuidado com cada projeto.
+          </p>
+        </div>
+      </section>
 
       {/* FILTROS E GRID CONTINUAM IGUAIS ABAIXO... */}
       <div className="sticky top-16 lg:top-20 z-40 bg-[#0a0a0a]/95 backdrop-blur-xl border-b border-[rgba(255,105,0,0.1)]">
