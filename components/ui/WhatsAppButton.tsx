@@ -179,8 +179,10 @@ function handleBtnClick() {
             </AnimatePresence>
 
             {/* Botão principal */}
-            <motion.button
-              onClick={handleBtnClick}
+            <motion.a
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="Abrir chat WhatsApp"
               className="relative w-[58px] h-[58px] bg-[#FF6900]
                 rounded-2xl rounded-br-sm overflow-hidden
@@ -200,7 +202,7 @@ function handleBtnClick() {
                 transition={{ duration: 1.8, repeat: Infinity, repeatDelay: 3, ease: 'easeInOut' }}
               />
               <WhatsAppIcon className="w-[27px] h-[27px] relative z-10" />
-            </motion.button>
+            </motion.a>
           </div>
         </motion.div>
       )}
