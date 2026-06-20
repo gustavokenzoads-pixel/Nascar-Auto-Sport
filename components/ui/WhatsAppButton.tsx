@@ -115,7 +115,7 @@ function handleBtnClick() {
                 {/* Header */}
                 <div className="flex items-center gap-2 mb-2">
 <img
-  src="/notificacao.png"
+  src="/notificacao.webp"
   alt="Ney"
   className="w-7 h-7 rounded-full object-cover flex-shrink-0"
 />

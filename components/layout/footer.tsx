@@ -21,7 +21,7 @@ export function Footer() {
           <div className="space-y-4">
 <Link href="/" className="flex items-center gap-2">
 <img 
-  src="/images/logo-nascar.png" 
+  src="/images/logo-nascar.webp" 
   alt="NASCAR Auto Sport" 
   className="h-12 w-auto"
 />

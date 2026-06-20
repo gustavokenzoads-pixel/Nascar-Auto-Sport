@@ -45,37 +45,37 @@ const services = [
     title: 'Funilaria & Pintura', 
     description: 'Pintura candy, metálica e personalizada. Reparos de colisão e acabamento impecável.',
     tag: 'Bodywork',
-    image: '/services/funilaria.png', // sua foto aqui
+    image: '/services/funilaria.webp', // sua foto aqui
   },
   { 
     title: 'Martelinho de Ouro', 
     description: 'Reparação de amassados sem pintura (PDR). Preserva a pintura original com precisão.',
     tag: 'PDR',
-    image: '/services/martelinho.png',
+    image: '/services/martelinho.webp',
   },
   { 
     title: 'Cabine de Pintura', 
     description: 'Cabine climatizada profissional. Acabamento espelhado e partículas controladas.',
     tag: 'Pro Booth',
-    image: '/services/cabine.png',
+    image: '/services/cabine.webp',
   },
   { 
     title: 'Tunning & Customização', 
     description: 'Wrapping, aerografia, kits aerodinâmicos, rodas e rebaixamento.',
     tag: 'Custom',
-    image: '/services/tunning.png',
+    image: '/services/tunning.webp',
   },
   { 
     title: 'Alta Performance', 
     description: 'Motor, suspensão, freios, escapamento e chip tuning de alta precisão.',
     tag: 'Performance',
-    image: '/services/performance.png',
+    image: '/services/performance.webp',
   },
   { 
     title: 'Estética Automotiva', 
     description: 'Polimento técnico, vitrificação cerâmica, higienização e espelhamento.',
     tag: 'Detail',
-    image: '/services/estetica.png',
+    image: '/services/estetica.webp',
   },
 ]
 
@@ -85,21 +85,21 @@ const testimonials = [
     city: 'São Paulo, SP', 
     text: 'Oficina ótima! Me enviavam diariamente o passo a passo do conserto do carro, o preço foi justo, o trabalho ficou perfeito, pintura linda, alinhamento da funilaria impecável, super indico!!!', 
     stars: 5,
-    image: '/saiyurigonçalves.png' // Substitua pela URL real da foto do cliente
+    image: '/saiyurigonçalves.webp' // Substitua pela URL real da foto do cliente
   },
   { 
     name: 'Silmara O.', 
     city: 'São Paulo, SP', 
     text: 'Excelente serviço de qualidade, profissionais comprometidos e honestos super recomendo estão de parabéns fiquei muito satisfeita com o serviço.', 
     stars: 5,
-    image: '/silmaraoliveira.png' // Substitua pela URL real da foto do cliente
+    image: '/silmaraoliveira.webp' // Substitua pela URL real da foto do cliente
   },
   { 
     name: 'Flavio S.', 
     city: 'São Paulo, SP', 
     text: 'Esse eh o melhor lugar de SP se não do Brasil para se levar o carro quando algum problema acontece, o Ney eh uma pessoa maravilhosa e essa mudança só fez bem a ele a a oficina… lugar muito maior e com uma equipe refinada Aconselho a todos levarem seus carros lá', 
     stars: 5,
-    image: '/flaviosaera.png' // Substitua pela URL real da foto do cliente
+    image: '/flaviosaera.webp' // Substitua pela URL real da foto do cliente
   },
 ]
 

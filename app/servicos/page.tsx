@@ -39,7 +39,7 @@ const services = [
       'Aplicação de verniz cerâmico'
     ],
     badge: 'CESVI + IQA',
-    image: '/servicos/funilariaepintura.png'
+    image: '/servicos/funilariaepintura.webp'
   },
   {
     id: 'martelinho',
@@ -54,7 +54,7 @@ const services = [
       'Prazo reduzido de entrega'
     ],
     badge: 'PROFISSIONAIS ESPECIALIZADOS',
-    image: '/servicos/martelinho.png'
+    image: '/servicos/martelinho.webp'
   },
   {
     id: 'cabine',
@@ -69,7 +69,7 @@ const services = [
       'Secagem controlada'
     ],
     badge: 'CABINE PRESSURIZADA',
-    image: '/servicos/cabine.png'
+    image: '/servicos/cabine.webp'
   },
   {
     id: 'tunning',
@@ -85,7 +85,7 @@ const services = [
       'Iluminação customizada'
     ],
     badge: 'CUSTOMIZAÇÃO COMPLETA',
-    image: '/servicos/tunning.png'
+    image: '/servicos/tunning.webp'
   },
   {
     id: 'performance',
@@ -101,7 +101,7 @@ const services = [
       'Admissão de ar esportiva'
     ],
     badge: 'AUMENTO DE DESEMPENHO',
-    image: '/servicos/performance.png'
+    image: '/servicos/performance.webp'
   },
   {
     id: 'estetica',
@@ -117,7 +117,7 @@ const services = [
       'Revitalização de plásticos'
     ],
     badge: 'DETALHAMENTO ESTÉTICO',
-    image: '/servicos/estetica.png'
+    image: '/servicos/estetica.webp'
   }
 ]
 
@@ -213,7 +213,7 @@ export default function ServicosPage() {
     <div className="relative h-full overflow-hidden">
       {/* MUDAMOS DE Image PARA NextImage AQUI */}
       <NextImage 
-        src="/arteservicos.png" 
+        src="/arteservicos.webp" 
         alt="Ney - NASCAR Auto Sport" 
         fill 
         className="object-contain object-bottom scale-110"

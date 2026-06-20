@@ -29,7 +29,7 @@ export function CTASection({
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: `url('/images/cta-bg.jpg')`,
+          backgroundImage: `url('/images/cta-bg.webp')`,
           filter: 'grayscale(30%) brightness(0.35)',
         }}
       />

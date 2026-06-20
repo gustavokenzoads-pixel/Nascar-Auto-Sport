@@ -3,10 +3,10 @@
 // ============================================================
 //
 // IMAGENS: coloque os arquivos em /public/images/projects/<id>/
-//   - antes.jpg  → imagem "antes" do projeto
-//   - depois.jpg → imagem "depois" do projeto
+//   - antes.webp  → imagem "antes" do projeto
+//   - depois.webp → imagem "depois" do projeto
 //
-// Exemplo: /public/images/projects/b20-bitelo/antes.jpg
+// Exemplo: /public/images/projects/b20-bitelo/antes.webp
 //
 // Enquanto as imagens não estiverem prontas, os cards mostram
 // o placeholder padrão automaticamente.
@@ -65,8 +65,8 @@ export const projects: Project[] = [
     tags: ['Nissan 350Z', 'Funilaria', 'Pintura', 'Estética', 'Tunning'],
     description:
       'Transformação completa do 350Z da influencer Bruna Genoin: funilaria, pintura nova, estética detalhada e pacote de tunning.',
-    beforeImage: '/imagesprojects/1antes.png',
-    afterImage: '/imagesprojects/1depois.png',
+    beforeImage: '/imagesprojects/1antes.webp',
+    afterImage: '/imagesprojects/1depois.webp',
     highlight: true,
     year: 2024,
     client: 'Bruna Genoin',
@@ -84,8 +84,8 @@ export const projects: Project[] = [
     tags: ['BMW E36', 'Drift', 'Funilaria', 'Pintura', 'Tunning'],
     description:
       'Preparação da BMW E36 de drift do Mesquitinha: funilaria pesada, nova pintura, estética e pacote de tunning para pista.',
-    beforeImage: '/imagesprojects/2antes.png',
-    afterImage: '/imagesprojects/2depois.png',
+    beforeImage: '/imagesprojects/2antes.webp',
+    afterImage: '/imagesprojects/2depois.webp',
     highlight: true,
     year: 2024,
     client: 'Luiz Mesquita — Mesquitinha',
@@ -103,8 +103,8 @@ export const projects: Project[] = [
     tags: ['Kombi', 'Corujinha', 'Restauração', 'Web Série'],
     description:
       'Restauração épica da Kombi Corujinha — projeto com mais de 50 episódios publicados no YouTube acompanhando cada etapa do trabalho.',
-    beforeImage: '/imagesprojects/3antes.png',
-    afterImage: '/imagesprojects/3depois.png',
+    beforeImage: '/imagesprojects/3antes.webp',
+    afterImage: '/imagesprojects/3depois.webp',
     highlight: true,
     year: 2023,
     client: 'Rato Borrachudo',
@@ -126,8 +126,8 @@ export const projects: Project[] = [
     tags: ['Ford Fusion', 'Pintura Completa', 'Troca de Cor', 'Flow Podcast'],
     description:
       'Pintura completa com troca de cor no Ford Fusion do Igor 3K, co-fundador do Flow Podcast.',
-    beforeImage: '/imagesprojects/4antes.png',
-    afterImage: '/imagesprojects/4depois.png',
+    beforeImage: '/imagesprojects/4antes.webp',
+    afterImage: '/imagesprojects/4depois.webp',
     highlight: true,
     year: 2024,
     client: 'Igor 3K — Flow Podcast',
@@ -151,8 +151,8 @@ export const projects: Project[] = [
     tags: ['Chevrolet B20', 'Funilaria', 'Pintura', 'Estética', 'Restauração'],
     description:
       'Restauração completa da B20 do Bitelo: funilaria, pintura e estética em uma das caminhonetes mais icônicas do canal.',
-    beforeImage: '/imagesprojects/5antes.png',
-    afterImage: '/imagesprojects/5depois.png',
+    beforeImage: '/imagesprojects/5antes.webp',
+    afterImage: '/imagesprojects/5depois.webp',
     highlight: true,
     year: 2026,
     client: 'Bitelo',
@@ -169,8 +169,8 @@ export const projects: Project[] = [
     tags: ['Hyundai i30', 'Recuperação', 'Funilaria', 'Pintura'],
     description:
       'Recuperação e reforma completa do Hyundai i30 com funilaria e pintura do início ao fim.',
-    beforeImage: '/imagesprojects/7antes.png',
-    afterImage: '/imagesprojects/7depois.png',
+    beforeImage: '/imagesprojects/7antes.webp',
+    afterImage: '/imagesprojects/7depois.webp',
     highlight: false,
     year: 2024,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=s-qKxAa1zMQ', label: 'Ver no YouTube' }],
@@ -185,8 +185,8 @@ export const projects: Project[] = [
     tags: ['Toyota Mark 2', 'Drift', 'Recuperação', 'Funilaria', 'Pintura', 'Estética'],
     description:
       'Recuperação, funilaria, pintura e estética completa no Mark 2 de drift do Fred Monteiro.',
-    beforeImage: '/imagesprojects/8antes.png',
-    afterImage: '/imagesprojects/8depois.png',
+    beforeImage: '/imagesprojects/8antes.webp',
+    afterImage: '/imagesprojects/8depois.webp',
     highlight: true,
     year: 2024,
     client: 'Fred Monteiro',
@@ -203,8 +203,8 @@ export const projects: Project[] = [
     tags: ['Honda City', 'Alargado', 'Funilaria', 'Pintura', 'Tunning', 'Performance'],
     description:
       'Honda City com kit alargado: funilaria e pintura completa, tunning e upgrades de performance.',
-    beforeImage: '/imagesprojects/9antes.png',
-    afterImage: '/imagesprojects/9depois.png',
+    beforeImage: '/imagesprojects/9antes.webp',
+    afterImage: '/imagesprojects/9depois.webp',
     highlight: true,
     year: 2024,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=jYyF-fuJFbM', label: 'Ver no YouTube' }],
@@ -219,8 +219,8 @@ export const projects: Project[] = [
     tags: ['Volvo XC60', 'Pintura', 'Estética'],
     description:
       'Pintura e estética completa no Volvo XC60 do cantor Lito da banda Aviões e Músicas.',
-    beforeImage: '/imagesprojects/10antes.png',
-    afterImage: '/imagesprojects/10depois.png',
+    beforeImage: '/imagesprojects/10antes.webp',
+    afterImage: '/imagesprojects/10depois.webp',
     highlight: true,
     year: 2024,
     client: 'Lito Sousa — Aviões e Músicas',
@@ -237,8 +237,8 @@ export const projects: Project[] = [
     tags: ['Fiat Bravo', 'T-JET', 'Funilaria', 'Pintura', 'Estética'],
     description:
       'Funilaria, pintura e estética completa no Fiat Bravo T-JET.',
-    beforeImage: '/imagesprojects/11antes.png',
-    afterImage: '/imagesprojects/11depois.png',
+    beforeImage: '/imagesprojects/11antes.webp',
+    afterImage: '/imagesprojects/11depois.webp',
     highlight: false,
     year: 2024,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=JxZKYMJJ7LA', label: 'Ver no YouTube' }],
@@ -253,8 +253,8 @@ export const projects: Project[] = [
     tags: ['Subaru', 'Shark', 'Funilaria', 'Pintura', 'Estética'],
     description:
       'Transformação do Subaru Shark com funilaria, pintura e estética completa.',
-    beforeImage: '/imagesprojects/12antes.png',
-    afterImage: '/imagesprojects/12depois.png',
+    beforeImage: '/imagesprojects/12antes.webp',
+    afterImage: '/imagesprojects/12depois.webp',
     highlight: false,
     year: 2024,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=C0ok1bHbaIk', label: 'Ver no YouTube' }],
@@ -269,8 +269,8 @@ export const projects: Project[] = [
     tags: ['Subaru WRX', 'Funilaria', 'Pintura', 'Estética'],
     description:
       'Funilaria, pintura e estética no Subaru WRX do canal AutoSuperBr.',
-    beforeImage: '/imagesprojects/13antes.png',
-    afterImage: '/imagesprojects/13depois.png',
+    beforeImage: '/imagesprojects/13antes.webp',
+    afterImage: '/imagesprojects/13depois.webp',
     highlight: true,
     year: 2024,
     client: 'AutoSuperBr',
@@ -287,8 +287,8 @@ export const projects: Project[] = [
     tags: ['Toyota Supra', 'Funilaria', 'Pintura', 'Estética'],
     description:
       'Funilaria, pintura e estética na icônica Supra de Renato Garcia, um dos maiores influenciadores automotivos do Brasil.',
-    beforeImage: '/imagesprojects/14antes.png',
-    afterImage: '/imagesprojects/14depois.png',
+    beforeImage: '/imagesprojects/14antes.webp',
+    afterImage: '/imagesprojects/14depois.webp',
     highlight: true,
     year: 2024,
     client: 'Renato Garcia',
@@ -306,8 +306,8 @@ export const projects: Project[] = [
     tags: ['Nissan 350Z', 'Funilaria', 'Pintura', 'Estética'],
     description:
       'Funilaria, pintura interna e estética completa no Nissan 350Z na cor preta.',
-    beforeImage: '/imagesprojects/15antes.png',
-    afterImage: '/imagesprojects/15depois.png',
+    beforeImage: '/imagesprojects/15antes.webp',
+    afterImage: '/imagesprojects/15depois.webp',
     highlight: false,
     year: 2024,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=M7uVRkBhbHk', label: 'Ver no YouTube' }],
@@ -322,8 +322,8 @@ export const projects: Project[] = [
     tags: ['VW Parati', 'GTi', 'Funilaria', 'Pintura', 'Estética'],
     description:
       'Funilaria, pintura e estética na clássica Parati GTi.',
-    beforeImage: '/imagesprojects/16antes.png',
-    afterImage: '/imagesprojects/16depois.png',
+    beforeImage: '/imagesprojects/16antes.webp',
+    afterImage: '/imagesprojects/16depois.webp',
     highlight: false,
     year: 2023,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=6wsRORZeuTA', label: 'Ver no YouTube' }],
@@ -338,8 +338,8 @@ export const projects: Project[] = [
     tags: ['VW Parati', 'Low Cars', 'Funilaria', 'Pintura', 'Estética'],
     description:
       'Funilaria, pintura e estética na Parati do projeto Low Cars.',
-    beforeImage: '/imagesprojects/17antes.png',
-    afterImage: '/imagesprojects/17depois.png',
+    beforeImage: '/imagesprojects/17antes.webp',
+    afterImage: '/imagesprojects/17depois.webp',
     highlight: false,
     year: 2023,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=OC-FCFwN2Ic', label: 'Ver no YouTube' }],
@@ -354,8 +354,8 @@ export const projects: Project[] = [
     tags: ['Nissan 240SX', 'Funilaria', 'Pintura'],
     description:
       'Funilaria e pintura completa no Nissan 240SX do Erick Medici.',
-    beforeImage: '/imagesprojects/18antes.png',
-    afterImage: '/imagesprojects/18depois.png',
+    beforeImage: '/imagesprojects/18antes.webp',
+    afterImage: '/imagesprojects/18depois.webp',
     highlight: true,
     year: 2024,
     client: 'Erick Medici',
@@ -372,8 +372,8 @@ export const projects: Project[] = [
     tags: ['Mitsubishi Eclipse', 'Fast and Furious', 'Funilaria', 'Pintura', 'Estética'],
     description:
       'Funilaria, pintura e estética no Eclipse temático de Velozes e Furiosos.',
-    beforeImage: '/imagesprojects/19antes.png',
-    afterImage: '/imagesprojects/19depois.png',
+    beforeImage: '/imagesprojects/19antes.webp',
+    afterImage: '/imagesprojects/19depois.webp',
     highlight: true,
     year: 2024,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=89tMq1vSOCw', label: 'Ver no YouTube' }],
@@ -388,8 +388,8 @@ export const projects: Project[] = [
     tags: ['Fiat Marea', '2.4', 'Funilaria', 'Pintura', 'Estética'],
     description:
       'Funilaria, pintura e estética completa no Fiat Marea Prata 2.4.',
-    beforeImage: '/imagesprojects/20antes.png',
-    afterImage: '/imagesprojects/20depois.png',
+    beforeImage: '/imagesprojects/20antes.webp',
+    afterImage: '/imagesprojects/20depois.webp',
     highlight: false,
     year: 2023,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=8tPsavZLrIE', label: 'Ver no YouTube' }],
@@ -404,8 +404,8 @@ export const projects: Project[] = [
     tags: ['Fiat Marea', 'Turbo', 'Funilaria', 'Pintura', 'Estética'],
     description:
       'Funilaria, pintura e estética completa no Fiat Marea Turbo do Nicolas.',
-    beforeImage: '/imagesprojects/21antes.png',
-    afterImage: '/imagesprojects/21depois.png',
+    beforeImage: '/imagesprojects/21antes.webp',
+    afterImage: '/imagesprojects/21depois.webp',
     highlight: false,
     year: 2023,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=eN2Ele12ZzY', label: 'Ver no YouTube' }],
@@ -420,8 +420,8 @@ export const projects: Project[] = [
     tags: ['Ford Ka', 'Recuperação', 'Funilaria', 'Pintura', 'Estética'],
     description:
       'Recuperação completa, funilaria, pintura e estética no Ford Ka polêmico.',
-    beforeImage: '/imagesprojects/22antes.png',
-    afterImage: '/imagesprojects/22depois.png',
+    beforeImage: '/imagesprojects/22antes.webp',
+    afterImage: '/imagesprojects/22depois.webp',
     highlight: false,
     year: 2023,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=Y6j8yjuYtX8', label: 'Ver no YouTube' }],
@@ -436,8 +436,8 @@ export const projects: Project[] = [
     tags: ['VW Passat', 'Verde', 'Funilaria', 'Pintura'],
     description:
       'Funilaria e pintura completa no VW Passat Verde do canal AutoSuperBr.',
-    beforeImage: '/imagesprojects/23antes.png',
-    afterImage: '/imagesprojects/23depois.png',
+    beforeImage: '/imagesprojects/23antes.webp',
+    afterImage: '/imagesprojects/23depois.webp',
     highlight: false,
     year: 2023,
     client: 'AutoSuperBr',
@@ -454,8 +454,8 @@ export const projects: Project[] = [
     tags: ['VW Passat', 'Marrom', 'Funilaria', 'Pintura'],
     description:
       'Funilaria e pintura completa no VW Passat Marrom do canal AutoSuperBr.',
-    beforeImage: '/imagesprojects/24antes.png',
-    afterImage: '/imagesprojects/24depois.png',
+    beforeImage: '/imagesprojects/24antes.webp',
+    afterImage: '/imagesprojects/24depois.webp',
     highlight: false,
     year: 2023,
     client: 'AutoSuperBr',
@@ -472,8 +472,8 @@ export const projects: Project[] = [
     tags: ['Audi S3', 'Funilaria', 'Pintura'],
     description:
       'Funilaria e pintura no Audi S3 do canal AutoSuperBr.',
-    beforeImage: '/imagesprojects/25antes.png',
-    afterImage: '/imagesprojects/25depois.png',
+    beforeImage: '/imagesprojects/25antes.webp',
+    afterImage: '/imagesprojects/25depois.webp',
     highlight: false,
     year: 2023,
     client: 'AutoSuperBr',
@@ -490,8 +490,8 @@ export const projects: Project[] = [
     tags: ['VW Saveiro', 'Funilaria', 'Pintura', 'Estética'],
     description:
       'Funilaria, pintura e estética na Saveiro do canal AutoSuperBr.',
-    beforeImage: '/imagesprojects/26antes.png',
-    afterImage: '/imagesprojects/26depois.png',
+    beforeImage: '/imagesprojects/26antes.webp',
+    afterImage: '/imagesprojects/26depois.webp',
     highlight: false,
     year: 2023,
     client: 'AutoSuperBr',
@@ -508,8 +508,8 @@ export const projects: Project[] = [
     tags: ['Nissan GTR', 'R35', 'Liberty Walk', 'Recuperação', 'Funilaria', 'Pintura', 'Estética', 'Customização'],
     description:
       'Recuperação, funilaria, pintura, estética e customização completa no GTR R35 com kit Liberty Walk.',
-    beforeImage: '/imagesprojects/27antes.png',
-    afterImage: '/imagesprojects/27depois.png',
+    beforeImage: '/imagesprojects/27antes.webp',
+    afterImage: '/imagesprojects/27depois.webp',
     highlight: true,
     year: 2024,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=pq1zIN0YX6U', label: 'Ver no YouTube' }],
@@ -524,8 +524,8 @@ export const projects: Project[] = [
     tags: ['Corvette', 'Drift', 'Funilaria', 'Pintura', 'Estética'],
     description:
       'Funilaria, pintura e estética no Corvette de drift do David Almonacid.',
-    beforeImage: '/imagesprojects/28antes.png',
-    afterImage: '/imagesprojects/28depois.png',
+    beforeImage: '/imagesprojects/28antes.webp',
+    afterImage: '/imagesprojects/28depois.webp',
     highlight: true,
     year: 2024,
     client: 'David Almonacid',
@@ -542,8 +542,8 @@ export const projects: Project[] = [
     tags: ['Honda Civic', '4D Garage', 'Funilaria', 'Pintura', 'Estética'],
     description:
       'Funilaria, pintura e estética completa no Honda Civic azul do 4D Garage.',
-    beforeImage: '/imagesprojects/29antes.png',
-    afterImage: '/imagesprojects/29depois.png',
+    beforeImage: '/imagesprojects/29antes.webp',
+    afterImage: '/imagesprojects/29depois.webp',
     highlight: false,
     year: 2024,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=D_hKv8BTe4U', label: 'Ver no YouTube' }],
@@ -558,8 +558,8 @@ export const projects: Project[] = [
     tags: ['Audi A3', 'Pocinha Garage', 'Funilaria', 'Pintura', 'Estética', 'Alta Performance', 'Customização'],
     description:
       'Funilaria, pintura, alta performance, customização e estética completa no Audi A3 da Pocinha Garage.',
-    beforeImage: '/imagesprojects/30antes.png',
-    afterImage: '/imagesprojects/30depois.png',
+    beforeImage: '/imagesprojects/30antes.webp',
+    afterImage: '/imagesprojects/30depois.webp',
     highlight: true,
     year: 2024,
     client: 'Pocinha Garage',
@@ -576,8 +576,8 @@ export const projects: Project[] = [
     tags: ['RAM 1500', 'Funilaria', 'Pintura', 'Estética', 'Customização'],
     description:
       'Funilaria, pintura, estética e customização completa na RAM 1500.',
-    beforeImage: '/imagesprojects/31antes.png',
-    afterImage: '/imagesprojects/31depois.png',
+    beforeImage: '/imagesprojects/31antes.webp',
+    afterImage: '/imagesprojects/31depois.webp',
     highlight: false,
     year: 2024,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=CUpqnMMOQAE', label: 'Ver no YouTube' }],
@@ -592,8 +592,8 @@ export const projects: Project[] = [
     tags: ['Chevette', 'Drift', 'Funilaria', 'Pintura'],
     description:
       'Funilaria e pintura no Chevette de drift do Dark Garage.',
-    beforeImage: '/imagesprojects/32antes.png',
-    afterImage: '/imagesprojects/32depois.png',
+    beforeImage: '/imagesprojects/32antes.webp',
+    afterImage: '/imagesprojects/32depois.webp',
     highlight: true,
     year: 2023,
     client: 'Dark Garage',
@@ -610,8 +610,8 @@ export const projects: Project[] = [
     tags: ['Mercedes C180', 'Recuperação', 'Funilaria', 'Pintura', 'Estética', 'Customização'],
     description:
       'Recuperação, funilaria, pintura, estética e customização na Mercedes C180 Branca.',
-    beforeImage: '/imagesprojects/33antes.png',
-    afterImage: '/imagesprojects/33depois.png',
+    beforeImage: '/imagesprojects/33antes.webp',
+    afterImage: '/imagesprojects/33depois.webp',
     highlight: false,
     year: 2024,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=n9bS6Sub4Rw', label: 'Ver no YouTube' }],
@@ -626,8 +626,8 @@ export const projects: Project[] = [
     tags: ['Ford F-150', 'Lightning', 'Velozes e Furiosos', 'DJ Heron', 'Funilaria', 'Pintura', 'Estética', 'Customização'],
     description:
       'Funilaria, pintura, estética e customização temática de Velozes e Furiosos na F-150 Lightning do DJ Heron.',
-    beforeImage: '/imagesprojects/34antes.png',
-    afterImage: '/imagesprojects/34depois.png',
+    beforeImage: '/imagesprojects/34antes.webp',
+    afterImage: '/imagesprojects/34depois.webp',
     highlight: true,
     year: 2024,
     client: 'DJ Heron',
@@ -644,8 +644,8 @@ export const projects: Project[] = [
     tags: ['Honda Fit', 'Teto Solar', 'Funilaria', 'Pintura', 'Estética', 'Customização', 'Alta Performance'],
     description:
       'Funilaria, pintura, estética, customização e alta performance com instalação de teto solar de Tiguan no Honda Fit.',
-    beforeImage: '/imagesprojects/35antes.png',
-    afterImage: '/imagesprojects/35depois.png',
+    beforeImage: '/imagesprojects/35antes.webp',
+    afterImage: '/imagesprojects/35depois.webp',
     highlight: true,
     year: 2024,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=60Gq6GtxcC0', label: 'Ver no YouTube' }],
@@ -660,8 +660,8 @@ export const projects: Project[] = [
     tags: ['BMW 328i', 'Touring', 'Funilaria', 'Pintura'],
     description:
       'Funilaria e pintura completa na BMW 328i Touring.',
-    beforeImage: '/imagesprojects/36antes.png',
-    afterImage: '/imagesprojects/36depois.png',
+    beforeImage: '/imagesprojects/36antes.webp',
+    afterImage: '/imagesprojects/36depois.webp',
     highlight: false,
     year: 2024,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=EJ1y2nLFdgU', label: 'Ver no YouTube' }],
@@ -676,8 +676,8 @@ export const projects: Project[] = [
     tags: ['Jeep Compass', 'Funilaria', 'Pintura', 'Estética'],
     description:
       'Funilaria, pintura e estética no Jeep Compass transformado.',
-    beforeImage: '/imagesprojects/37antes.png',
-    afterImage: '/imagesprojects/37depois.png',
+    beforeImage: '/imagesprojects/37antes.webp',
+    afterImage: '/imagesprojects/37depois.webp',
     highlight: false,
     year: 2024,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=UJLfXhQdtsc', label: 'Ver no YouTube' }],
@@ -692,8 +692,8 @@ export const projects: Project[] = [
     tags: ['Peugeot 308', 'Funilaria', 'Pintura', 'Estética', 'Customização'],
     description:
       'Funilaria, pintura, estética e customização completa no Peugeot 308 transformado.',
-    beforeImage: '/imagesprojects/38antes.png',
-    afterImage: '/imagesprojects/38depois.png',
+    beforeImage: '/imagesprojects/38antes.webp',
+    afterImage: '/imagesprojects/38depois.webp',
     highlight: false,
     year: 2024,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=9scltZVN4wo', label: 'Ver no YouTube' }],
@@ -708,8 +708,8 @@ export const projects: Project[] = [
     tags: ['Mitsubishi Lancer', 'Evo X', 'Customização', 'Funilaria', 'Pintura', 'Estética'],
     description:
       'Customização, funilaria, pintura e estética na transformação do Lancer em Evo X.',
-    beforeImage: '/imagesprojects/39antes.png',
-    afterImage: '/imagesprojects/39depois.png',
+    beforeImage: '/imagesprojects/39antes.webp',
+    afterImage: '/imagesprojects/39depois.webp',
     highlight: true,
     year: 2024,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=XKJAfbfOa24', label: 'Ver no YouTube' }],
@@ -724,8 +724,8 @@ export const projects: Project[] = [
     tags: ['Subaru STi', 'Jabuti', 'Customização', 'Estética'],
     description:
       'Customização e estética completa no Subaru WRX STi Jabuti.',
-    beforeImage: '/imagesprojects/40antes.png',
-    afterImage: '/imagesprojects/40depois.png',
+    beforeImage: '/imagesprojects/40antes.webp',
+    afterImage: '/imagesprojects/40depois.webp',
     highlight: false,
     year: 2023,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=wnFLyXO4Y74', label: 'Ver no YouTube' }],
@@ -740,8 +740,8 @@ export const projects: Project[] = [
     tags: ['Ford Ranger', 'Funilaria', 'Pintura', 'Estética', 'Customização', 'Alta Performance'],
     description:
       'Funilaria, pintura, estética, customização e alta performance na Ford Ranger da NASCAR — primeiro episódio da série.',
-    beforeImage: '/imagesprojects/41antes.png',
-    afterImage: '/imagesprojects/41depois.png',
+    beforeImage: '/imagesprojects/41antes.webp',
+    afterImage: '/imagesprojects/41depois.webp',
     highlight: true,
     year: 2024,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=eFuUuvgxNJ4', label: 'Ver no YouTube' }],
@@ -756,8 +756,8 @@ export const projects: Project[] = [
     tags: ['VW Fusca', 'Restauração', 'Funilaria', 'Pintura'],
     description:
       'Restauração 100% do Fusca clássico: funilaria e pintura do início ao fim.',
-    beforeImage: '/imagesprojects/42antes.png',
-    afterImage: '/imagesprojects/42depois.png',
+    beforeImage: '/imagesprojects/42antes.webp',
+    afterImage: '/imagesprojects/42depois.webp',
     highlight: true,
     year: 2023,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=f3mH0pHDcEw', label: 'Ver no YouTube' }],
@@ -772,8 +772,8 @@ export const projects: Project[] = [
     tags: ['Chevrolet Opala', 'Restauração', 'Funilaria', 'Pintura'],
     description:
       'Restauração completa do Opala com funilaria e pintura impecáveis.',
-    beforeImage: '/imagesprojects/43antes.png',
-    afterImage: '/imagesprojects/43depois.png',
+    beforeImage: '/imagesprojects/43antes.webp',
+    afterImage: '/imagesprojects/43depois.webp',
     highlight: true,
     year: 2023,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=q_nDgZmvirM', label: 'Ver no YouTube' }],
@@ -788,8 +788,8 @@ export const projects: Project[] = [
     tags: ['VW Gol', 'Funilaria', 'Pintura', 'Estética'],
     description:
       'Funilaria, pintura e estética no Gol Diferentão do canal AutoSuperBr.',
-    beforeImage: '/imagesprojects/44antes.png',
-    afterImage: '/imagesprojects/44depois.png',
+    beforeImage: '/imagesprojects/44antes.webp',
+    afterImage: '/imagesprojects/44depois.webp',
     highlight: false,
     year: 2023,
     client: 'AutoSuperBr',
@@ -806,8 +806,8 @@ export const projects: Project[] = [
     tags: ['Ford Maverick', '4 Portas', 'Restauração', 'Funilaria', 'Pintura'],
     description:
       'Restauração, funilaria e pintura completa na Ford Maverick 4 portas.',
-    beforeImage: '/imagesprojects/45antes.png',
-    afterImage: '/imagesprojects/45depois.png',
+    beforeImage: '/imagesprojects/45antes.webp',
+    afterImage: '/imagesprojects/45depois.webp',
     highlight: false,
     year: 2023,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=SFvexjbuvik', label: 'Ver no YouTube' }],
@@ -822,8 +822,8 @@ export const projects: Project[] = [
     tags: ['Nissan S15', 'Tokyo Drift', 'Thiago Bortoto', 'Funilaria', 'Pintura', 'Estética', 'Alta Performance', 'Customização'],
     description:
       'Funilaria, pintura, estética, alta performance e customização no S15 Monaliza de Tokyo Drift do Thiago Bortoto.',
-    beforeImage: '/imagesprojects/46antes.png',
-    afterImage: '/imagesprojects/46depois.png',
+    beforeImage: '/imagesprojects/46antes.webp',
+    afterImage: '/imagesprojects/46depois.webp',
     highlight: true,
     year: 2024,
     client: 'Thiago Bortoto',
@@ -840,8 +840,8 @@ export const projects: Project[] = [
     tags: ['Chevrolet Monza', 'Envemo', 'Conversível', 'Funilaria', 'Pintura', 'Estética'],
     description:
       'Funilaria, pintura e estética no raro Monza Envemo Conversível.',
-    beforeImage: '/imagesprojects/47antes.png',
-    afterImage: '/imagesprojects/47depois.png',
+    beforeImage: '/imagesprojects/47antes.webp',
+    afterImage: '/imagesprojects/47depois.webp',
     highlight: true,
     year: 2023,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=OTjZju6T55E', label: 'Ver no YouTube' }],
@@ -856,8 +856,8 @@ export const projects: Project[] = [
     tags: ['Volvo 850', 'Recuperação', 'Funilaria', 'Pintura'],
     description:
       'Recuperação, funilaria e pintura completa no clássico Volvo 850.',
-    beforeImage: '/imagesprojects/48antes.png',
-    afterImage: '/imagesprojects/48depois.png',
+    beforeImage: '/imagesprojects/48antes.webp',
+    afterImage: '/imagesprojects/48depois.webp',
     highlight: false,
     year: 2023,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=cdTi7TlgHK8', label: 'Ver no YouTube' }],
@@ -872,8 +872,8 @@ export const projects: Project[] = [
     tags: ['Honda Civic', 'Track Day', 'Restauração', 'Funilaria', 'Pintura', 'Estética'],
     description:
       'Restauração, funilaria, pintura e estética no Honda Civic preparado para Track Day.',
-    beforeImage: '/imagesprojects/49antes.png',
-    afterImage: '/imagesprojects/49depois.png',
+    beforeImage: '/imagesprojects/49antes.webp',
+    afterImage: '/imagesprojects/49depois.webp',
     highlight: false,
     year: 2023,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=HBbEn2_wdbA', label: 'Ver no YouTube' }],
@@ -888,8 +888,8 @@ export const projects: Project[] = [
     tags: ['Pontiac GTO', 'The Judge', '1968', 'Funilaria', 'Pintura', 'Estética', 'Customização'],
     description:
       'Funilaria, pintura, estética e customização no icônico Pontiac GTO "The Judge" de 1968.',
-    beforeImage: '/imagesprojects/50antes.png',
-    afterImage: '/imagesprojects/50depois.png',
+    beforeImage: '/imagesprojects/50antes.webp',
+    afterImage: '/imagesprojects/50depois.webp',
     highlight: true,
     year: 2023,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=jIB2AIq7sEQ', label: 'Ver no YouTube' }],
@@ -904,8 +904,8 @@ export const projects: Project[] = [
     tags: ['BMW X1', 'Teto Panorâmico', 'Funilaria', 'Pintura', 'Customização', 'Alta Performance'],
     description:
       'Funilaria, pintura, customização e alta performance na BMW X1 com teto panorâmico.',
-    beforeImage: '/imagesprojects/51antes.png',
-    afterImage: '/imagesprojects/51depois.png',
+    beforeImage: '/imagesprojects/51antes.webp',
+    afterImage: '/imagesprojects/51depois.webp',
     highlight: false,
     year: 2024,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=zW_emykHNXk', label: 'Ver no YouTube' }],
@@ -920,8 +920,8 @@ export const projects: Project[] = [
     tags: ['Chevrolet Caravan', 'Restauração', 'Funilaria', 'Pintura'],
     description:
       'Restauração completa da Caravan com funilaria e pintura impecáveis.',
-    beforeImage: '/imagesprojects/52antes.png',
-    afterImage: '/imagesprojects/52depois.png',
+    beforeImage: '/imagesprojects/52antes.webp',
+    afterImage: '/imagesprojects/52depois.webp',
     highlight: false,
     year: 2023,
     youtubeLinks: [{ url: 'https://www.youtube.com/watch?v=dhbDAK5k-S8', label: 'Ver no YouTube' }],
@@ -936,8 +936,8 @@ export const projects: Project[] = [
     tags: ['Chevrolet Astra', 'Lucas Fontana', 'Funilaria', 'Pintura', 'Estética'],
     description:
       'Funilaria, pintura e estética no Chevrolet Astra do Lucas Fontana do canal AutoSuperBr.',
-    beforeImage: '/imagesprojects/53antes.png',
-    afterImage: '/imagesprojects/53depois.png',
+    beforeImage: '/imagesprojects/53antes.webp',
+    afterImage: '/imagesprojects/53depois.webp',
     highlight: true,
     year: 2024,
     client: 'Lucas Fontana — AutoSuperBr',

@@ -103,10 +103,10 @@ export function Navbar() {
             >
               {/* 
                 TODO: Substituir pela logo oficial se necessário
-                Arquivo atual: /images/logo-nascar.png
+                Arquivo atual: /images/logo-nascar.webp
               */}
               <Image
-                src="/images/logo-nascar.png"
+                src="/images/logo-nascar.webp"
                 alt="NASCAR Auto Sport"
                 width={180}
                 height={40}
@@ -197,7 +197,7 @@ export function Navbar() {
               <div className="flex items-center justify-between p-6 border-b border-[rgba(255,105,0,0.2)]">
                 {/* Logo no menu mobile */}
                 <Image
-                  src="/images/logo-nascar.png"
+                  src="/images/logo-nascar.webp"
                   alt="NASCAR Auto Sport"
                   width={140}
                   height={32}

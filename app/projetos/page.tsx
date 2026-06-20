@@ -204,7 +204,7 @@ export default function ProjetosPage() {
                 <div className="absolute -inset-4 bg-[#FF6900]/15 blur-3xl rounded-full" />
                 <div className="relative h-full overflow-hidden">
                   <Image 
-                    src="/arteprojetos.png" 
+                    src="/arteprojetos.webp" 
                     alt="Ney - NASCAR Auto Sport" 
                     fill 
                     className="object-contain object-bottom scale-110"

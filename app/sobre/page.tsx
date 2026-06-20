@@ -50,7 +50,7 @@ export default function SobrePage() {
       {/* 
         TODO: Adicionar imagem de fundo com opacidade baixa
         Altura fixa: min-h-[450px] no desktop, min-h-[490px] no desktop
-        Imagem sugerida: hero/sobre-bg.jpg (1920x600px)
+        Imagem sugerida: hero/sobre-bg.webp (1920x600px)
       */}
       {/* ============================================ */}
       <section className="relative min-h-[450px] lg:min-h-[490px] flex items-center pt-[51px] lg:pt-[100px] pb-12 lg:pb-10 gradient-hero overflow-hidden">
@@ -59,7 +59,7 @@ export default function SobrePage() {
         {/* 
           TODO: Descomentar quando tiver a imagem de fundo
           <div className="absolute inset-0 opacity-15">
-            <Image src="/images/hero/sobre-bg.jpg" alt="" fill className="object-cover" />
+            <Image src="/images/hero/sobre-bg.webp" alt="" fill className="object-cover" />
           </div>
         */}
         
@@ -267,7 +267,7 @@ export default function SobrePage() {
              <div className="relative aspect-[4/5] max-w-md mx-auto overflow-hidden" style={{ borderRadius: '16px' }}>
   <div className="absolute -inset-4 bg-[#FF6900]/20 blur-3xl rounded-full" />
   <img 
-    src="/certificadoney.jpg" 
+    src="/certificadoney.webp" 
     alt="Ney" 
     className="w-full h-full object-cover relative z-10 border border-[#FF6900]/30"
     style={{ borderRadius: '16px' }}
