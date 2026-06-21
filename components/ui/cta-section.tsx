@@ -25,14 +25,6 @@ export function CTASection({
   return (
     <section className="relative min-h-[420px] flex items-center justify-center overflow-hidden bg-[#0a0a0a]">
 
-      {/* Imagem de fundo */}
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage: `url('/images/cta-bg.webp')`,
-          filter: 'grayscale(30%) brightness(0.35)',
-        }}
-      />
 
       {/* Overlay gradiente direcional com toque laranja */}
       <div className="absolute inset-0 bg-gradient-to-br from-[#0a0a0a]/75 via-[#FF6900]/18 to-[#0a0a0a]/90" />
