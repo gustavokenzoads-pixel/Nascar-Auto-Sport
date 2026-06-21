@@ -600,7 +600,7 @@ export default function HomePage() {
         
         <div className="relative w-full h-full overflow-hidden bg-[#1a1a1a]">
           <img
-            src="/instagram/subaru.png"
+            src="/instagram/subaru.webp"
             alt="b20 do bitelo"
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
           />
@@ -619,10 +619,10 @@ export default function HomePage() {
       {/* Coluna direita — Quadrados (Itens 2 a 6) */}
       <div className="col-span-12 md:col-span-7 grid grid-cols-2 gap-[10px]">
         {[
-          { href: 'https://www.instagram.com/p/DKFEDrssXMz/', thumb: '/instagram/bmw.png', label: 'Post', title: 'bmw reliquia', delay: 0.1, reel: true },
-          { href: 'https://www.instagram.com/p/DTi3W-JkhSt/?img_index=1', thumb: '/instagram/b20.jpg', label: 'Post', title: 'b20 bitelo', delay: 0.15, reel: false },
-          { href: 'https://www.instagram.com/p/DRNzb-FDYRr/', thumb: '/instagram/dodgedart.png', label: 'Post', title: 'dodge dart', delay: 0.2, reel: true },
-          { href: 'https://www.instagram.com/p/DRhtSZtDjR2/?img_index=1', thumb: '/instagram/city tunning.png', label: 'Post', title: 'city tunning', delay: 0.25, reel: false },
+          { href: 'https://www.instagram.com/p/DKFEDrssXMz/', thumb: '/instagram/bmw.webp', label: 'Post', title: 'bmw reliquia', delay: 0.1, reel: true },
+          { href: 'https://www.instagram.com/p/DTi3W-JkhSt/?img_index=1', thumb: '/instagram/b20.webp', label: 'Post', title: 'b20 bitelo', delay: 0.15, reel: false },
+          { href: 'https://www.instagram.com/p/DRNzb-FDYRr/', thumb: '/instagram/dodgedart.webp', label: 'Post', title: 'dodge dart', delay: 0.2, reel: true },
+          { href: 'https://www.instagram.com/p/DRhtSZtDjR2/?img_index=1', thumb: '/instagram/city tunning.webp', label: 'Post', title: 'city tunning', delay: 0.25, reel: false },
         ].map((p, i) => (
           <motion.a
             key={i}

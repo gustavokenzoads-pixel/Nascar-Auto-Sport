@@ -318,6 +318,8 @@ export default function ServicosPage() {
                                 src={service.image}
                                 alt={service.title}
                                 className="w-full h-full object-cover"
+                                loading={index === 0 ? 'eager' : 'lazy'}
+                                decoding={index === 0 ? 'auto' : 'async'}
                               />
                             ) : (
                               <div className="w-full h-full flex items-center justify-center">

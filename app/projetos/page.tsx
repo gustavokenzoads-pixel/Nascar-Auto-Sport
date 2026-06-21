@@ -324,8 +324,8 @@ export default function ProjetosPage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div className="grid grid-cols-1 md:grid-cols-2 gap-7" layout>
             <AnimatePresence mode="popLayout">
-              {filteredProjects.map((project) => (
-                <ProjectCard key={project.id} project={project} featured={project.highlight} />
+              {filteredProjects.map((project, i) => (
+                <ProjectCard key={project.id} project={project} featured={project.highlight} priority={i < 6} />
               ))}
             </AnimatePresence>
           </motion.div>

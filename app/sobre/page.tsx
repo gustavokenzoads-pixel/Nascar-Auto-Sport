@@ -239,6 +239,8 @@ export default function SobrePage() {
                   src="/sobrenos/neysobrenos.webp"
                   alt="NASCAR Auto Sport — Oficina"
                   className="w-full h-full object-cover"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
             </motion.div>
@@ -266,11 +268,13 @@ export default function SobrePage() {
 
              <div className="relative aspect-[4/5] max-w-md mx-auto overflow-hidden" style={{ borderRadius: '16px' }}>
   <div className="absolute -inset-4 bg-[#FF6900]/20 blur-3xl rounded-full" />
-  <img 
-    src="/certificadoney.webp" 
-    alt="Ney" 
+  <img
+    src="/certificadoney.webp"
+    alt="Ney"
     className="w-full h-full object-cover relative z-10 border border-[#FF6900]/30"
     style={{ borderRadius: '16px' }}
+    loading="lazy"
+    decoding="async"
   />
 </div>
 

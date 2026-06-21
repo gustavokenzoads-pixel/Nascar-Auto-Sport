@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { Star, Youtube, ArrowLeftRight } from 'lucide-react'
 import { categoryLabels, type Project } from '@/data/projects'
@@ -8,9 +9,10 @@ import { categoryLabels, type Project } from '@/data/projects'
 type ProjectCardProps = {
   project: Project
   featured?: boolean
+  priority?: boolean
 }
 
-export function ProjectCard({ project, featured = false }: ProjectCardProps) {
+export function ProjectCard({ project, featured = false, priority = false }: ProjectCardProps) {
   const [showAfter, setShowAfter] = useState(false)
 
   const hasYoutube = project.youtubeLinks && project.youtubeLinks.length > 0
@@ -44,23 +46,33 @@ export function ProjectCard({ project, featured = false }: ProjectCardProps) {
       >
         {/* Imagem ANTES */}
         <div
-          className="absolute inset-0 bg-cover bg-center transition-opacity duration-500"
-          style={{
-            backgroundImage: `url(${project.beforeImage})`,
-            opacity: showAfter ? 0 : 1,
-            backgroundColor: '#1a1a1a',
-          }}
-        />
+          className="absolute inset-0 transition-opacity duration-500"
+          style={{ opacity: showAfter ? 0 : 1, backgroundColor: '#1a1a1a' }}
+        >
+          <Image
+            src={project.beforeImage}
+            alt={`${project.title} - antes`}
+            fill
+            className="object-cover"
+            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 512px"
+            priority={priority}
+          />
+        </div>
 
         {/* Imagem DEPOIS */}
         <div
-          className="absolute inset-0 bg-cover bg-center transition-opacity duration-500"
-          style={{
-            backgroundImage: `url(${project.afterImage})`,
-            opacity: showAfter ? 1 : 0,
-            backgroundColor: '#222',
-          }}
-        />
+          className="absolute inset-0 transition-opacity duration-500"
+          style={{ opacity: showAfter ? 1 : 0, backgroundColor: '#222' }}
+        >
+          <Image
+            src={project.afterImage}
+            alt={`${project.title} - depois`}
+            fill
+            className="object-cover"
+            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 512px"
+            priority={priority}
+          />
+        </div>
 
         {/* Overlay hover */}
         <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300 pointer-events-none" />
